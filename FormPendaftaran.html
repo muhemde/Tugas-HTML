@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <u>
+    <h3>FORMULIR PENDAFTARAN</h3>
+    </u>
+<div>
+    <form>
+    <fieldset>
+      <legend><b>KETERANGAN PRIBADI</b></legend>
+      <table> 
+      <!--nama-->
+        <tr>
+          <td>
+            <label class="" class="label-input" for="name">Nama Lengkap</label>
+          </td>
+          <td>:</td>
+          <td><input type="text" name="name" placeholder="Masukkan Nama Lengkap" size="44"/></td>
+        </tr> 
+
+        <!--panggilannya-->
+        <tr>
+          <td>
+            <label class="" class="label-input" for="name">Nama Panggilan</label>
+          </td>
+          <td>:</td>
+          <td><input type="text" name="name" placeholder="Masukkan Nama Panggilan" size="44"/></td>
+        </tr>
+
+        <!--kelamin-->
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="kelamin" id="kelamin1" />
+            <label class="" for="kelamin1">Laki-laki</label>
+            <input type="radio" name="kelamin" id="kelamin2" />
+            <label class="" for="kelamin2">Perempuan</label>
+            </td>
+        </tr>
+
+        <!--ttl-->
+        <tr>
+          <td>
+            <label class="" class="label-input" for="tl">Tempat Lahir</label>
+          </td>
+          <td>:</td>
+          <td><input type="text" name="tl" placeholder="Masukkan Nama Kota" size="44"/></td>
+        </tr>
+
+        <!--ttl-->
+        <tr>
+          <td>
+            <label class="" class="label-input" for="date">Tanggal Lahir</label>
+          </td>
+          <td>:</td>
+          <td>
+            <input type="text" style="width: 22px;" placeholder="dd">
+            <input type="text" style="width: 22px;" placeholder="mm">
+            <input type="text" style="width: 35px;" placeholder="yyyy">
+            </td>
+        </tr>
+
+        <!--agama-->
+        <tr>
+          <td><label class="" for="agama">Agama</label></td>
+          <td>:</td>
+          <td>
+            <select name="agama" id="agama">
+              <option value="Islam">Islam</option>
+              <option value="Kristen">Kristen</option>
+              <option value="Khatolik">Katolik</option>
+              <option value="Hindu">Hindu</option>
+              <option value="Buddha">Budha</option>
+              <option value="Konghuchu">Konghuchu</option>
+              <option value="other">other</option>
+            </select>
+          </td>
+        </tr>
+
+        <!--warga-->
+        <tr>
+          <td>Kewarganegaraan</td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="warga" id="warga1" />
+            <label class="" for="warga1">WNI</label>
+            <input type="radio" name="warga" id="warga2" />
+            <label class="" for="kelamin2">WNA</label>
+            </td>
+        </tr>
+
+        <!--anak ke?-->
+        <tr>
+          <td><label class="" for="anak">Anak Ke</label></td>
+          <td>:</td>
+          <td>
+            <select name="anak" id="anak">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+        </tr>
+
+        <!--saudara-->
+        <tr>
+          <td><label class="" for="saudara">Jumlah Saudara</label></td>
+          <td>:</td>
+          <td>
+            <select name="saudara" id="saudara">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+        </tr>
+
+        <!--status-->
+        <tr>
+          <td>Status</td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="Status" id="status1" />
+            <label class="" for="status1">Kawin</label>
+            <input type="radio" name="Status" id="status2" />
+            <label class="" for="kelamin2">Belum Kawin</label>
+            <input type="radio" name="Status" id="status3" />
+            <label class="" for="status3">Cerai</label>
+            </td>
+        </tr>
+
+        <!--sim-->
+        <tr>
+          <td>Jenis SIM</td>
+          <td>:</td>
+          <td>
+            <input type="checkbox" name="SIM" id="SIM1" />
+            <label class="" for="sim1">SIM A</label>
+            <input type="checkbox" name="SIM" id="sim2" />
+            <label class="" for="sim2">SIM B1</label>
+            <input type="checkbox" name="SIM" id="sim3" />
+            <label class="" for="sim3">SIM B2</label>
+            <input type="checkbox" name="SIM" id="sim4" />
+            <label class="" for="sim4">SIM C</label>
+            <input type="checkbox" name="SIM" id="sim5" />
+            <label class="" for="sim5">SIM D</label>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+
+    <form>
+    <fieldset>
+          <legend><b>KETERANGAN TEMPAT TINGGAL</b></legend>
+    <table>
+        <!--alamat-->
+        <tr>
+          <td><label class="" for="alamat">Alamat Saat Ini</label></td>
+          <td>:</td>
+          <td>
+            <textarea name="alamat" placeholder="Alamat Domisili Saat Ini" cols="50" rows="5"></textarea>
+          </td>
+        </tr>
+
+        <!--NIK-->
+        <tr>
+          <td>
+            <label class="" class="label-input" for="nik">No. KTP</label>
+          </td>
+          <td>:</td>
+          <td><input type="text" name="nik" placeholder="Input 18 Angka NIK" size="50"/></td>
+        </tr>
+
+        <!--tlp-->
+        <tr>
+          <td>
+            <label class="" class="label-input" for="--tlp--">No. Telepon/Hp</label>
+          </td>
+          <td>:</td>
+          <td><input type="text" name="tlp" placeholder="Masukkan Nomor Telepon" size="50"/></td>
+        </tr>
+
+        <!--alamat lain-->
+        <tr>
+          <td><label class="" for="alamat">Alamat Sesuai KTP</label></td>
+          <td>:</td>
+          <td>
+            <textarea name="alamat" placeholder="Alamat Sesuai KTP" cols="50" rows="5"></textarea>
+          </td>
+        </tr>
+
+        <!--tlp lain-->
+        <tr>
+          <td>
+            <label class="" class="label-input" for="tlp">No. Telepon/Hp Lainnya</label>
+          </td>
+          <td>:</td>
+          <td><input type="text" name="tlp" placeholder="Input Nomor Telepon Lainnya" size="50"/></td>
+        </tr>
+             <!--submit-->
+        <tr>
+          <td><button type="submit" value="Kirim">Kirim</button></td></tr>
+        </fieldset>
+      </table>
+    </form>
+  </div>
+  </body>
+</html>
