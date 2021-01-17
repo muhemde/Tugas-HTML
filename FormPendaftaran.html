@@ -5,15 +5,26 @@
     <title>Form Pendaftaran</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
+
+  <!--Mulai Masuk Body-->
   <body>
     <u>
     <h3>FORMULIR PENDAFTARAN</h3>
-    </u>
-<div>
+    </u> </div>
+
+<div class="main">
+  <div class="midle">
     <form>
     <fieldset>
       <legend><b>KETERANGAN PRIBADI</b></legend>
       <table> 
+
+      <!--Insert Foto-->
+          <center><class="input-file-wrapper">
+          <label for="upload">Upload Foto</label>
+          <input type="file" name="" id="upload">
+          </class></center>
+
       <!--nama-->
         <tr>
           <td>
@@ -29,7 +40,8 @@
             <label class="" class="label-input" for="name">Nama Panggilan</label>
           </td>
           <td>:</td>
-          <td><input type="text" name="name" placeholder="Masukkan Nama Panggilan" size="44"/></td>
+          <td><input type="text" name="name" placeholder="Masukkan Nama Panggilan" size="44"/>
+          </td>
         </tr>
 
         <!--kelamin-->
@@ -159,7 +171,9 @@
         </table>
       </fieldset>
     </form>
+    </div>
 
+    <div class="midle">
     <form>
     <fieldset>
           <legend><b>KETERANGAN TEMPAT TINGGAL</b></legend>
@@ -208,12 +222,18 @@
           <td>:</td>
           <td><input type="text" name="tlp" placeholder="Input Nomor Telepon Lainnya" size="50"/></td>
         </tr>
-             <!--submit-->
+
+        <!--submit-->
         <tr>
           <td><button type="submit" value="Kirim">Kirim</button></td></tr>
         </fieldset>
       </table>
     </form>
+  </div>
+
+  <!--copyright-->
+  <div class="footer">
+    <p>Copyright © <script>document.write(new Date().getFullYear());</script> PT. EXCELLENT</p>
   </div>
   </body>
 </html>
